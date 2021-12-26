@@ -25,7 +25,7 @@ class Nutshell:
 # Here the main function: 
 
 if __name__ == '__main__':
-    place = input("Enter the place any name : ")
+    place = input("Enter the any place name : ")
     action = input("Enter an action which are taken by Squirrel : ")
-    obj = Nutshell(place, action)
+    obj = Nutshell(place, action)   # creating object 
     obj.story()
